@@ -11,27 +11,23 @@
   border: none;
   transition: background-color 0.2s ease;
 }
+
 .btn:hover {
-    background-color: var(--tertiaryColor);
+  background-color: var(--tertiaryColor);
 }
+
 body {
   font-family: var(--ffPrimary);
 }
 
 h1 {
   font-family: var(--ffSecondary);
-  color: #212529;
   font-size: 5.1rem;
-  font-weight: 800;
-  line-height: 1;
 }
 
 h2 {
   font-family: var(--ffSecondary);
-  color: #212529;
   font-size: 3rem;
-  font-weight: 800;
-  line-height: 1.2;
 }
 
 p {
@@ -40,25 +36,26 @@ p {
 
 
 .heroSection {
-  /* background-image: url(./assets/img/hero.jpg); */
   background: linear-gradient(90deg, #fffcfc, transparent 60%), url(./assets/img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 13rem 0rem;
+  padding: 11rem 0rem;
 }
 
 .hero {
-  /* background-color: #00b7ff; */
   width: 60%;
   height: 100%;
 }
 
 .location i {
-  background-color: #be9c79;
-  border-radius: 7rem;
-  color: #f8f5f3;
-  font-size: 3rem;
-  padding: 0rem;
+  background-color: var(--primaryColor);
 }
 
+
+.form-control:focus {
+  /* border: 1px solid dodgerblue; */
+  /* box-shadow: 0 0 6px dodgerblue; */
+  outline: none;
+  /* border: none; */
+}
