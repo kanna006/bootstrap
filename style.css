@@ -20,14 +20,9 @@ body {
   font-family: var(--ffPrimary);
 }
 
-h1 {
-  font-family: var(--ffSecondary);
-  font-size: 5.1rem;
-}
-
+h1,
 h2 {
   font-family: var(--ffSecondary);
-  font-size: 3rem;
 }
 
 p {
@@ -41,11 +36,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 11rem 0rem;
-}
-
-.hero {
-  width: 60%;
-  height: 100%;
 }
 
 .location i {
