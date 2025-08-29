@@ -38,8 +38,9 @@ p {
   padding: 11rem 0rem;
 }
 
-.location i {
+.location .icons {
   background-color: var(--primaryColor);
+  border-radius: 50%;
 }
 
 
